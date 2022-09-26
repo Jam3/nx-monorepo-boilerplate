@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jam3/hooks": ["libs/hooks/src/index.ts"],
+      "@jam3/services": ["libs/services/src/index.ts"],
+      "@jam3/styles": ["libs/styles/src/index.ts"],
+      "@jam3/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
