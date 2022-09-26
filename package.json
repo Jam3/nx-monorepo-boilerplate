@@ -5,6 +5,7 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
+    "export": "nx export",
     "test": "nx test"
   },
   "private": true,
